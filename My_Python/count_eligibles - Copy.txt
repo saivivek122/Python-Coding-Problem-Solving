@@ -1,0 +1,25 @@
+i = 0
+j = 0
+count = 0
+eligible = []
+check_list=[]
+from collections import Counter
+lists=[(1015, 'Porky', 'Pig', 3), (1015, 'Wile', 'Coyote', 3), (735, 'Elmer', 'Fudd', 11),
+       (735, 'Road', 'Runner', 11), (1020, 'Goofy', 'Dog', 1), (1001, 'Donald', 'Duck', 2),
+       (831, 'Mickey', 'Mouse', 3), (735, 'Minnie', 'Mouse', 4), (1050, 'Bugs', 'Bunny', 2),
+       (1050, 'Pluto', 'Dog', 2), (1015, 'Wile', 'Coyote', 3), (1015, 'Porky', 'Pig', 3),
+       (805, 'Daisy', 'Duck', 9),
+       (735, 'Daffy', 'Duck', 11), (735, 'Road', 'Runner', 11), (735, 'Elmer', 'Fudd', 11)]
+while i < len(lists):
+    k = lists[i][0]
+    j = 0
+    while j < len(lists):
+        if k == (lists[j][0]):
+            count = count + 1
+            values = [k,count]
+        j = j + 1
+
+    i = i + 1
+
+
+

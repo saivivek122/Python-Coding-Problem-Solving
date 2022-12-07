@@ -1,0 +1,19 @@
+{
+    "certifiedList": [
+        {
+            "position_id": "5",
+            "eligible_list_id": [100001,20202,3456],
+            "certification_date": "11/08/2020"
+        },
+        {
+            "position_id": "2",
+            "eligible_list_id": [100001,20202,5000],
+            "certification_date": "10/07/2020"
+        },
+        {
+            "position_id": "3",
+            "eligible_list_id": [100001,20202,8500],
+            "certification_date": "05/06/2020"
+        }
+    ]
+}
